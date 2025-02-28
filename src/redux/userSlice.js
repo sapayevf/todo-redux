@@ -15,7 +15,7 @@ const initialState = {
 
 const userSlice = createSlice({
   name: "users",
-  initialState,
+  initialState: initialState,
   reducers: {
     addUser: (state, action) => {
       state.users.push({ id: Date.now(), ...action.payload });

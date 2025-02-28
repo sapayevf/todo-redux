@@ -1,6 +1,6 @@
 import { useState } from "react";
-import UserForm from "./components/CardForm";
-import UserList from "./components/CardList";
+import UserForm from "./components/UserForm";
+import UserList from "./components/UserList";
 
 const App = () => {
   const [editUser, setEditUser] = useState(null);

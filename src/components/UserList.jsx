@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from "react-redux";
-import { removeUser } from "../redux/cardSlice";
+import { removeUser } from "../redux/userSlice";
 
 const UserList = ({ setEditUser }) => {
   const users = useSelector((state) => state.users.users);
